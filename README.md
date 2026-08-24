@@ -51,4 +51,4 @@ python scripts/viz.py
 
 ## Author
 
-Built by [your name] as a data analysis project. Feedback welcome — open an issue or connect on [LinkedIn].
+Built by olzhaszz as a data analysis project. Feedback welcome — open an issue or connect on https://www.linkedin.com/in/olzhaszz/.
