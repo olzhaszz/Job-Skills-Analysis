@@ -18,7 +18,7 @@ Notable: "soft" tags like *Communication* (1,196 mentions) rank above many techn
 
 Breaking postings into four role buckets shows genuinely different skill profiles, not just the same list reshuffled:
 
-![Skills by Role](02_skills_by_role.png)
+![Skills by Role](outputs/02_skills_by_role.png)
 
 - **Data Scientist** → Python, Machine Learning, Data Science, SQL, **R** (R barely shows up for other roles)
 - **Data Engineer** → Python, SQL, Data Engineering, **Spark, Java, Scala, Snowflake** — this is the only role where JVM languages and big-data infra tools dominate
@@ -29,13 +29,13 @@ Breaking postings into four role buckets shows genuinely different skill profile
 
 ## 3. What Pairs With What
 
-![Co-occurrence Heatmap](03_cooccurrence_heatmap.png)
+![Co-occurrence Heatmap](outputs/03_cooccurrence_heatmap.png)
 
 The strongest pairings outside the diagonal: **Python↔SQL** and **Python↔Machine Learning**. Interestingly, R and Tableau are both fairly isolated — postings asking for R rarely also ask for Tableau/Power BI, suggesting R-heavy roles skew more toward statistical/research work than dashboard-building.
 
 ## 4. Junior vs. Senior: The List Barely Changes
 
-![Skills by Seniority](04_skills_by_seniority.png)
+![Skills by Seniority](outputs/04_skills_by_seniority.png)
 
 This is arguably the most useful finding for a beginner: the top skills for **Associate**-level postings (n=580) and **Mid-senior**-level postings (n=5,056) are nearly identical — Python, SQL, Data Analysis, Data Visualization all appear near the top of both. Seniority mostly changes *scope and years required*, not *which tools you need to know*. There's no secret advanced toolkit gatekeeping junior roles — the fundamentals (Python, SQL, data viz) are the actual bar at every level in this dataset.
 
@@ -45,7 +45,7 @@ Among the three major cloud providers explicitly tagged: **AWS (1,126 postings) 
 
 ---
 
-## Caveats (Real Talk)
+## Data insights
 
 - **Data is US/UK/Canada/Australia-heavy** — 84% US postings, no continental Europe representation, so this isn't a Hungary/EU-specific signal despite the original framing. Worth rerunning against an EU-specific job board if that matters for your job search.
 - **Point-in-time snapshot** (Jan 2024) — this is not a trend analysis; skill demand shifts, especially anything AI-related.
@@ -53,9 +53,9 @@ Among the three major cloud providers explicitly tagged: **AWS (1,126 postings) 
 - **Correlation, not causation** — high mention frequency reflects what employers *list*, not necessarily what actually gets people hired.
 
 ## Files
-- `01_top_skills.png` – overall top 20 skills
-- `02_skills_by_role.png` – skill breakdown by role category
-- `03_cooccurrence_heatmap.png` – which skills travel together
-- `04_skills_by_seniority.png` – associate vs. mid-senior comparison
+- `outputs/01_top_skills.png` – overall top 20 skills
+- `outputs/02_skills_by_role.png` – skill breakdown by role category
+- `outputs/03_cooccurrence_heatmap.png` – which skills travel together
+- `outputs/04_skills_by_seniority.png` – associate vs. mid-senior comparison
 - `exploded_skills_v2.csv` – full cleaned dataset (one row per skill mention)
 - `analysis.py`, `analysis2.py`, `viz.py` – reproducible pipeline
