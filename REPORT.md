@@ -10,7 +10,7 @@
 
 Python and SQL dominate — appearing in **64%** and **56%** of all postings respectively. That's a bigger gap than most "learn ML" advice implies: before TensorFlow or Spark, the baseline expectation is fluent Python + SQL.
 
-![Top Skills](01_top_skills.png)
+![Top Skills](outputs/01_top_skills.png)
 
 Notable: "soft" tags like *Communication* (1,196 mentions) rank above many technical tools like Hadoop or Statistics — recruiters/NER pipelines are explicitly tagging soft skills as first-class requirements, not afterthoughts.
 
