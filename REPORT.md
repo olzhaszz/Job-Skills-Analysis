@@ -1,7 +1,9 @@
 # What Skills Actually Get You Hired in Data Science? (2024 LinkedIn Job Postings Analysis)
 
 **Dataset:** 12,217 LinkedIn job postings (Kaggle, asaniczka/data-science-job-postings-and-skills, collected Jan 2024)
+
 **Filtered to:** 5,636 postings with titles matching Data Scientist, Data Engineer, Data Analyst, or ML Engineer
+
 **Method:** NER-extracted skill tags per posting, exploded and normalized, then analyzed for frequency, co-occurrence, role differences, and seniority differences.
 
 ---
